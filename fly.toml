@@ -5,7 +5,7 @@ swap_size_mb = 256
 [build]
   image = 'louislam/uptime-kuma:next'
 
-[[mounts]]
+[mounts]
   source = 'kuma_data'
   destination = '/app/data'
 
